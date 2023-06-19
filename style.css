@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.Nombre {
+  display: flex;
+  position: absolute;
+  list-style: none;
+  text-align-last: justify;
+  font-family: Arial;
+  font-size: 3em;
+  letter-spacing: 20px;
+  text-shadow: none;
+  animation: animate 1s infinite;
+  top: 50%;
+  left: 13%;
+}
+
+nav {
+  display: flex;
+  height: 10%;
+  width: 100%;
+  letter-spacing: 3px;
+  justify-content: end;
+}
+
+@keyframes animate {
+  0% {
+    color: #484848;
+    text-shadow: none;
+  }
+  18% {
+    color: #484848;
+    text-shadow: none;
+  }
+  20% {
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;
+  }
+  30% {
+    color: #484848;
+    text-shadow: none;
+  }
+  35% {
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;
+  }
+  70% {
+    color: #484848;
+    text-shadow: none;
+  }
+  85% {
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;
+  }
+  90% {
+    color: #484848;
+    text-shadow: none;
+  }
+  100% {
+    color: #484848;
+    text-shadow: none;
+  }
+}
