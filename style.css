@@ -11,19 +11,22 @@ header {
 }
 
 .Nombre {
-  display: flex;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.Nombre li {
   list-style: none;
-  text-align-last: justify;
   font-family: Arial;
   font-size: 3em;
-  letter-spacing: 20px;
+  letter-spacing: 15px;
   text-shadow: none;
-  animation: animate 1s infinite;
-  top: 50%;
-  left: 13%;
+  animation: animate 1s infinite linear;
 }
-
 nav {
   display: flex;
   height: 10%;
@@ -69,4 +72,64 @@ nav {
     color: #484848;
     text-shadow: none;
   }
+}
+.Nombre li:nth-child(1) {
+  animation-delay: 2s;
+}
+.Nombre li:nth-child(2) {
+  animation-delay: 4s;
+}
+.Nombre li:nth-child(3) {
+  animation-delay: 8s;
+}
+.Nombre li:nth-child(4) {
+  animation-delay: 1s;
+}
+.Nombre li:nth-child(5) {
+  animation-delay: 1.2s;
+}
+.Nombre li:nth-child(6) {
+  animation-delay: 1.4s;
+}
+.Nombre li:nth-child(7) {
+  animation-delay: 1.8s;
+}
+.Nombre li:nth-child(8) {
+  animation-delay: 2s;
+}
+.Nombre li:nth-child(9) {
+  animation-delay: 2.1s;
+}
+.Nombre li:nth-child(10) {
+  animation-delay: 2.2s;
+}
+.Nombre li:nth-child(11) {
+  animation-delay: 2.4s;
+}
+.Nombre li:nth-child(12) {
+  animation-delay: 2.8s;
+}
+.Nombre li:nth-child(13) {
+  animation-delay: 3s;
+}
+.Nombre li:nth-child(14) {
+  animation-delay: 3.1s;
+}
+.Nombre li:nth-child(15) {
+  animation-delay: 3.2s;
+}
+.Nombre li:nth-child(16) {
+  animation-delay: 3.4s;
+}
+.Nombre li:nth-child(17) {
+  animation-delay: 3.8s;
+}
+.Nombre li:nth-child(18) {
+  animation-delay: 4s;
+}
+.Nombre li:nth-child(19) {
+  animation-delay: 4.1s;
+}
+.Nombre li:nth-child(20) {
+  animation-delay: 4.2s;
 }
