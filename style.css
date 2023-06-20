@@ -5,6 +5,17 @@
   /* font-family: "DM Sans", sans-serif; */
   /* font-family: "Noto Sans", sans-serif; */
   font-family: "Tilt Prism", cursive;
+  color: #fff900;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.principal {
+  display: flex;
+  height: 20rem;
 }
 
 header {
@@ -44,6 +55,11 @@ nav a {
 }
 nav a:hover {
   color: #ff6c00;
+}
+
+.Tecnico {
+  margin-top: 30rem;
+  padding-left: 25rem;
 }
 
 @keyframes animate {
